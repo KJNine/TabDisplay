@@ -1,0 +1,8 @@
+name: TabDisplay
+version: '${project.version}'
+main: net.kjnine.tabdisplay.TabDisplay
+api-version: 1.19
+commands:
+  tab:
+    description: Subscribes to the TPS tab-display
+    permission: tabdisplay.tab
