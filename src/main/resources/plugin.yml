@@ -6,3 +6,6 @@ commands:
   tab:
     description: Subscribes to the TPS tab-display
     permission: tabdisplay.tab
+permissions:
+  tabdisplay.tab:
+    default: true

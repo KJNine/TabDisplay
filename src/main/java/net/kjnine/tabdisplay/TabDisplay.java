@@ -51,7 +51,7 @@ public final class TabDisplay extends JavaPlugin {
                         : GOOD))); // <30 good, 30-40 ehh, 40-50 notgood, 50-60 BAD, >60 horrid
                 TextColor tpsColor = tps < 16 ? HORRID
                         : (tps < 18 ? BAD
-                        : (tps < 20 ? NOTGOOD
+                        : (tps < 19.99 ? NOTGOOD
                         : (mspt > 35 ? EHH
                         : GOOD))); // <16 Horrid, <18 Bad, <20 Notgood, 20TPS but >35mspt EHH, otherwise GOOD
                 return Component.text(String.format(DECF, tps))
