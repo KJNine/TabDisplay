@@ -76,6 +76,7 @@ public final class TabDisplay extends JavaPlugin {
             if(p.getPersistentDataContainer().has(showTps)) {
                 p.getPersistentDataContainer().remove(showTps);
                 p.sendMessage(UNSUBSCRIBED);
+                p.sendPlayerListFooter(Component.empty());
             } else {
                 p.getPersistentDataContainer().set(showTps, PersistentDataType.INTEGER, 1);
                 p.sendMessage(SUBSCRIBED);
