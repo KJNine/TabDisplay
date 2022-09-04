@@ -81,10 +81,10 @@ public final class TabDisplay extends JavaPlugin {
                 p.getPersistentDataContainer().set(showTps, PersistentDataType.INTEGER, 1);
                 p.sendMessage(SUBSCRIBED);
             }
-
+            return true;
         }
 
-        return super.onCommand(sender, command, label, args);
+        return false;
     }
 
     @Override

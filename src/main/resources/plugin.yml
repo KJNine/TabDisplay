@@ -2,6 +2,8 @@ name: TabDisplay
 version: '${project.version}'
 main: net.kjnine.tabdisplay.TabDisplay
 api-version: 1.19
+author: KJNine
+website: https://github.com/KJNine/TabDisplay
 commands:
   tab:
     description: Subscribes to the TPS tab-display
